@@ -57,7 +57,7 @@ form button{
     background:#3385ff;
     color:#fff;
     border:none;
-    width:c
+    cursor:pointer;
 }
 
 /* section */
@@ -69,11 +69,19 @@ section{
 
 
 section .main{
-    width:72%;
     background:#fff;
     box-shadow:1px 1px 1px 1px rgba(255,255, 255, 0.5);
     border-radius:6px;
     padding:14px 20px;
+    position: relative;
+}
+.iconfont{
+    position: absolute;
+    width:16px;
+    height:16px;
+    top:0;
+    right:0;
+    border:1px solid red;
 }
 section .main .nav .website{
     float:left;
